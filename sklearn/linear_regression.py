@@ -12,6 +12,8 @@ def get_data():
     # scaler.transform(data)
     #
     # # 将每个特征值归一化到一个固定范围
+    # X_std = (X - X.min(axis=0)) / (X.max(axis=0) - X.min(axis=0))
+    # X_scaled = X_std * (max - min) + min
     # scaler = preprocessing.MinMaxScaler(feature_range=(0, 1)).fit(data)
     # scaler.transform(data)
 
