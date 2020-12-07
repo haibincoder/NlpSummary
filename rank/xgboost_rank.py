@@ -37,5 +37,6 @@ params = {'objective': 'rank:ndcg', 'eta': 0.1, 'gamma': 1.0,
           'min_child_weight': 0.1, 'max_depth': 6}
 xgb_model = xgb.train(params, train_dmatrix, num_boost_round=4,
                       evals=[(valid_dmatrix, 'validation')])
+print('train finished')
 pred = xgb_model.predict(test_dmatrix)
-print(pred)
+print('finished')

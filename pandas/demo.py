@@ -41,6 +41,10 @@ if __name__=="__main__":
     print(f'行数:{df.shape[0]}')
     print(f'列数:{df.shape[1]}')
 
+    # dataframe合并
+    # temp = pd.merge(df, df, how='left', left_on='name', right_index=True)
+    # temp: pd.DataFrame = temp.drop_duplicates(['age'])
+
     # 保存excel
     column_index = ['name', 'age', 'sex', 'count']
     df.to_excel('../out/pandas.xlsx', columns=column_index)
