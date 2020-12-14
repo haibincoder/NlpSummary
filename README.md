@@ -1,9 +1,5 @@
 # nlp_summary
-本仓库包含两部分内容：
-1. NLP知识总结
-2. 常用机器学习代码demo
-    1. 参数网格搜索、k折交叉验证
-    2. xgboost使用示例
+自己总结的nlp常用方法，包含sklearn、pandas、pytorch代码
 
 # 智能客服
 |内容|类型|
@@ -27,6 +23,7 @@
 |内容|类型|
 |:--|:--|
 |[百度2017：AI赋能的搜索和对话交互报告](https://www.mayi888.com/archives/21065)| 分享|
+|[美团BERT的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651750945&idx=1&sn=713f16c46065db1f831a495ffb1d9a78&chksm=bd125b6c8a65d27adb13bb234f027d619950a979259ae1c035427c4c025c95e26d7485194232&scene=21#wechat_redirect)|分享|
 
 
 # 对话管理
