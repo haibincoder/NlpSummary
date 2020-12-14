@@ -23,6 +23,11 @@
 |[阿里][通用领域对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247490733&idx=2&sn=7f2fe71b0805a6621e1033b4f37b4a7e&chksm=fbd4aec1cca327d7eeb439f565a3c145704ae83188d1119310700e327ca9dde7b444f060e68c&scene=21#wechat_redirect)|分享|
 |[阿里神马][阿里神马智能对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247486063&idx=1&sn=4a09a95d71cf41d28a7ae458099128ba&chksm=fbd4b803cca33115e8c554529bddf29748a5796ee06f0782ff079216b8770bc0edff64b7659d&scene=21#wechat_redirect)|分享|
 
+# 搜索
+|内容|
+|:--|
+|[百度2017：AI赋能的搜索和对话交互报告](https://www.mayi888.com/archives/21065)|
+
 
 # 对话管理
 |内容|类型|
