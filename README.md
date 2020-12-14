@@ -24,9 +24,9 @@
 |[阿里神马][阿里神马智能对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247486063&idx=1&sn=4a09a95d71cf41d28a7ae458099128ba&chksm=fbd4b803cca33115e8c554529bddf29748a5796ee06f0782ff079216b8770bc0edff64b7659d&scene=21#wechat_redirect)|分享|
 
 # 搜索
-|内容|
-|:--|
-|[百度2017：AI赋能的搜索和对话交互报告](https://www.mayi888.com/archives/21065)|
+|内容|类型|
+|:--|:--|
+|[百度2017：AI赋能的搜索和对话交互报告](https://www.mayi888.com/archives/21065)| 分享|
 
 
 # 对话管理
