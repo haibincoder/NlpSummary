@@ -1,9 +1,5 @@
 # nlp_summary
-本仓库包含两部分内容：
-1. NLP知识总结
-2. 常用机器学习代码demo
-    1. 参数网格搜索、k折交叉验证
-    2. xgboost使用示例
+自己总结的nlp常用方法，包含sklearn、pandas、pytorch代码
 
 # 智能客服
 |内容|类型|
@@ -22,6 +18,12 @@
 |[平安][CCKS 2019 基于知识图谱的寿险问答系统](https://mp.weixin.qq.com/s/-6NEBQk5CY-B_KSXh4007w)|分享|
 |[阿里][通用领域对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247490733&idx=2&sn=7f2fe71b0805a6621e1033b4f37b4a7e&chksm=fbd4aec1cca327d7eeb439f565a3c145704ae83188d1119310700e327ca9dde7b444f060e68c&scene=21#wechat_redirect)|分享|
 |[阿里神马][阿里神马智能对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247486063&idx=1&sn=4a09a95d71cf41d28a7ae458099128ba&chksm=fbd4b803cca33115e8c554529bddf29748a5796ee06f0782ff079216b8770bc0edff64b7659d&scene=21#wechat_redirect)|分享|
+
+# 搜索
+|内容|类型|
+|:--|:--|
+|[百度2017：AI赋能的搜索和对话交互报告](https://www.mayi888.com/archives/21065)| 分享|
+|[美团BERT的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651750945&idx=1&sn=713f16c46065db1f831a495ffb1d9a78&chksm=bd125b6c8a65d27adb13bb234f027d619950a979259ae1c035427c4c025c95e26d7485194232&scene=21#wechat_redirect)|分享|
 
 
 # 对话管理
