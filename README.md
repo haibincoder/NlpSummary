@@ -19,11 +19,22 @@
 |[阿里][通用领域对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247490733&idx=2&sn=7f2fe71b0805a6621e1033b4f37b4a7e&chksm=fbd4aec1cca327d7eeb439f565a3c145704ae83188d1119310700e327ca9dde7b444f060e68c&scene=21#wechat_redirect)|分享|
 |[阿里神马][阿里神马智能对话问答](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247486063&idx=1&sn=4a09a95d71cf41d28a7ae458099128ba&chksm=fbd4b803cca33115e8c554529bddf29748a5796ee06f0782ff079216b8770bc0edff64b7659d&scene=21#wechat_redirect)|分享|
 
+
+# 文本匹配
+|内容|类型|
+|:--|:--|
+|[阿里RE2][ACL2019]Simple and Effective Text Matching with Richer Alignment Features|论文|
+|[常用中文文本匹配数据集](https://github.com/IceFlameWorm/NLP_Datasets)|github|
+
 # 搜索
 |内容|类型|
 |:--|:--|
+|[LTR信息检索评价指标](https://www.cnblogs.com/memento/p/8673309.html)|博客|
+|[LTR及常用排序算法介绍](https://www.cnblogs.com/bentuwuying/p/6681943.html)|博客|
 |[百度2017：AI赋能的搜索和对话交互报告](https://www.mayi888.com/archives/21065)| 分享|
 |[美团BERT的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651750945&idx=1&sn=713f16c46065db1f831a495ffb1d9a78&chksm=bd125b6c8a65d27adb13bb234f027d619950a979259ae1c035427c4c025c95e26d7485194232&scene=21#wechat_redirect)|分享|
+|[知乎搜索排序模型的演进](https://mp.weixin.qq.com/s/DZZ_BCiNw0EZg7V0KvhXVw)|分享|
+|[知乎搜索文本相关性与知识蒸馏](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247520759&idx=1&sn=4aaab934ad388ce03d3af0a3e812ce9e&chksm=fbd7239bcca0aa8d37d22880608f7704c51104f79b5bee016a7b4692dc3340e983dae0c0fa31&scene=178&cur_album_id=1695976318087069696#rd)|分享|
 
 
 # 对话管理
@@ -35,14 +46,23 @@
 |[清华微软][DSTC8]ConvLab: Multi-Domain End-to-End Dialog System Platform|论文|
 |[清华][ACL2020]ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing DialogueSystems|论文|
 
+
 # 用户模拟器
 |内容|类型|
 |:--|:--|
 |[阿里][最新综述：对话系统之用户模拟器](https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247498768&idx=1&sn=fcfe600c5424d0574bb2388bb84f6201&chksm=96ea2390a19daa86945c6770eae0d901461012a2d3f0db0e9d588b2890a4dc56cf0f44484065&mpshare=1&scene=1&srcid=0206gsC9ONuK5wfza0Z1rRfk&sharer_sharetime=1580976682457&sharer_shareid=3c60d18bde553f3f8fdf6e933f6028d7&key=4989626a1578bf3bdb079bf70a1d5fe3dc78c9915c6fc5c79ea8d20c18a508baefcf3e3d7582c7b8cde17ac64e765d5269ce37a54f6e5d7ba1e327ff724e014b8514061ec9f990993df546da5afb6ad5&ascene=1&uin=OTI2MTc0ODYx&devicetype=Windows+10&version=6208006f&lang=zh_CN&exportkey=A4shY8TqQ%2Bou4x7cbwGdi4E%3D&pass_ticket=DbDI8FFg9bdoHQgpgNSm7vt73tTvN4GRkcRYgdzPhBl5O1Jfq7e2h3Shb1DsfV%2B9)|分享|
 
 
-# 文本匹配
-|内容|类型|
-|:--|:--|
-|[阿里ESIM][ACL2017]Sequential Attention-based Network for Noetic End-to-End Response Selection|论文|
-|[阿里RE2][ACL2019]Simple and Effective Text Matching with Richer Alignment Features|论文|
+
+
+# 目录
+/pandas  pandas常用方法（导入导出、func）
+/paper  最近阅读的nlp相关论文
+/pytorch  自己实现的部分pytorch模型
+/rank  排序算法示例（pyltr_listwise 、xgboost、 sklearn_xgboost）
+/similarity  常用文本相似度计算方法（Jaccord、编辑距离）
+/sklearn  sklearn常用方法（交叉验证、网格搜索、逻辑回归、svm等）
+/tools 其他python方法（多线程、文本生成）
+/xgboost  xgboost demo
+/xmind  NLP领域知识总结
+
