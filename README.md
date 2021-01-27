@@ -1,7 +1,6 @@
 # nlp_summary
 自己总结的nlp常用方法
 
-# 目录
 |目录|说明|
 |:--|:--|
 |/pandas | pandas常用方法（导入导出、func）|
@@ -10,7 +9,7 @@
 |/rank | 排序算法示例（pyltr_listwise 、xgboost、 sklearn_xgboost）|
 |/similarity | 常用文本相似度计算方法（Jaccord、编辑距离）|
 |/sklearn | sklearn常用方法（交叉验证、网格搜索、逻辑回归、svm等）|
-|/tools | 其他python方法（多线程、文本生成）|
+|/tools | 其他python方法（协程、ac算法、文本生成）|
 |/xgboost | xgboost demo|
 |/xmind | NLP领域知识总结|
 
