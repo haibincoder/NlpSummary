@@ -17,10 +17,7 @@ class Config(object):
         self.embed_dim = embed_dim                                          # 字向量维度
         self.filter_sizes = (2, 3, 4)                                   # 卷积核尺寸
         self.num_filters = 256                                          # 卷积核数量(channels数)
-        self.lr = 1e-3  # 学习率
-
-
-'''Convolutional Neural Networks for Sentence Classification'''
+        self.lr = 1e-3
 
 
 class Model(nn.Module):
