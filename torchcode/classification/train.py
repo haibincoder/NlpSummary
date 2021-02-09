@@ -18,6 +18,8 @@ train_path = '../../data/THUCNews/data/train.txt'
 dev_path = '../../data/THUCNews/data/dev.txt'
 vocab_path = '../../data/THUCNews/data/vocab.txt'
 
+output_path = 'output/'
+
 
 def get_data(path):
     input_vocab = open(vocab_path, 'r', encoding='utf-8')
@@ -85,7 +87,8 @@ def evaluate(model, dataloader_dev):
 
 if __name__ == "__main__":
     debug = False
-    module = import_module('TextLstmMax')
+    model_name = 'TextCNN'
+    module = import_module(model_name)
     config = module.Config(vocab_size, embed_dim, label_num)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -105,6 +108,7 @@ if __name__ == "__main__":
 
         optimizer = torch.optim.Adam(model.parameters(), lr=config.lr)
         model.train()
+        best_acc = 0
         for i in range(epoch):
             index = 0
             for datas, labels in tqdm(dataloader):
@@ -121,6 +125,8 @@ if __name__ == "__main__":
                     train_acc = metrics.accuracy_score(true, predic)
                     dev_acc = evaluate(model, dataloader_dev)
                     print(f'epoch:{i} item:{index} loss:{loss} train_acc:{train_acc} dev_acc:{dev_acc}')
+                    # if dev_acc > best_acc:
+                    #     torch.save(model, f'{output_path}/{model_name}/model.pt')
                     model.train()
 
         print('train finish')
