@@ -85,13 +85,13 @@ def evaluate(model, dataloader_dev):
 
 if __name__ == "__main__":
     debug = False
-    module = import_module('TextLSTM')
+    module = import_module('TextLstmMax')
     config = module.Config(vocab_size, embed_dim, label_num)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = module.Model(config).to(device)
     if debug:
-        inputs = torch.randint(0, 200, (batch_size, 10))
+        inputs = torch.randint(0, 200, (batch_size, embed_dim))
         labels = torch.randint(0, 2, (batch_size, 1)).squeeze(0)
         print(model(inputs))
     else:
