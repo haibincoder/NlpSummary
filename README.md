@@ -5,7 +5,7 @@
 |:--|:--|
 |/pandas | pandas常用方法（导入导出、func）|
 |/paper | 最近阅读的nlp相关论文|
-|/pytorch | 自己实现的部分pytorch模型|
+|/torchcode | 自己实现的部分pytorch模型|
 |/rank | 排序算法示例（pyltr_listwise 、xgboost、 sklearn_xgboost）|
 |/similarity | 常用文本相似度计算方法（Jaccord、编辑距离）|
 |/sklearn | sklearn常用方法（交叉验证、网格搜索、逻辑回归、svm等）|
