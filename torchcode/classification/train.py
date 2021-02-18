@@ -87,6 +87,7 @@ def evaluate(model, dataloader_dev):
 
 if __name__ == "__main__":
     debug = False
+    # 相对路径 + modelName(TextCNN、TextLSTM)
     model_name = 'TextCNN'
     module = import_module(model_name)
     config = module.Config(vocab_size, embed_dim, label_num)
@@ -124,7 +125,7 @@ if __name__ == "__main__":
                     predic = torch.max(output.data, 1)[1].cpu()
                     train_acc = metrics.accuracy_score(true, predic)
                     dev_acc = evaluate(model, dataloader_dev)
-                    print(f'epoch:{i} item:{index} loss:{loss} train_acc:{train_acc} dev_acc:{dev_acc}')
+                    print(f'epoch:{i} batch:{index} loss:{loss} train_acc:{train_acc} dev_acc:{dev_acc}')
                     # if dev_acc > best_acc:
                     #     torch.save(model, f'{output_path}/{model_name}/model.pt')
                     model.train()
