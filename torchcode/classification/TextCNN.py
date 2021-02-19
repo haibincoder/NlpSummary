@@ -43,7 +43,7 @@ class Model(nn.Module):
     def forward(self, input):
         out = self.embedding(input)
         out = out.unsqueeze(1)
-        #out = torch.cat([self.conv_and_pool(out, conv) for conv in self.convs], 1)
+        # out = torch.cat([self.conv_and_pool(out, conv) for conv in self.convs], 1)
         conv1 = self.conv_and_pool(out, self.conv1)
         conv2 = self.conv_and_pool(out, self.conv2)
         conv3 = self.conv_and_pool(out, self.conv3)
