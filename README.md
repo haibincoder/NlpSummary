@@ -9,7 +9,7 @@
 |/similarity | 常用文本相似度计算方法（Jaccord、编辑距离）|
 |/sklearn | sklearn常用方法（交叉验证、网格搜索、逻辑回归、svm等）|
 |/tools | 其他python方法（协程、ac算法、文本生成）|
-|/torchcode | 自己实现的部分pytorch模型|
+|/torchcode | 自己实现的部分pytorch模型（CNN/LSTM/Transformer文本分类、双塔网络等）|
 |/xgboost | xgboost demo|
 |/xmind | NLP领域知识总结|
 
