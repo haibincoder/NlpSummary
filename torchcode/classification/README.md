@@ -1,4 +1,4 @@
-自己实现的TextCNN、LSTM、Transformers文本分类，在THUCNews数据集单个epoch准确率约90%
+自己实现的TextCNN、LSTM、Transformers文本分类，在THUCNews数据集1个epoch准确率约90%
 ## 运行说明：
 1. 修改train.py模型名
 ```python
