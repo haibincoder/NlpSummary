@@ -88,14 +88,16 @@ def evaluate(model, dataloader_dev):
 if __name__ == "__main__":
     debug = False
     # 相对路径 + modelName(TextCNN、TextLSTM)
-    model_name = 'TextCNN'
+    model_name = 'Transformer'
     module = import_module(model_name)
     config = module.Config(vocab_size, embed_dim, label_num)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = module.Model(config).to(device)
     if debug:
-        inputs = torch.randint(0, 200, (batch_size, embed_dim))
+        # 维度：batch_size * max_length, 数值：0~200之间的整数，每一行表示wordid
+        inputs = torch.randint(0, 200, (batch_size, max_length))
+        # 维度：batch_size * 1， 数值：0~2之间的整数，维度扩充1，和input对应
         labels = torch.randint(0, 2, (batch_size, 1)).squeeze(0)
         print(model(inputs))
     else:
