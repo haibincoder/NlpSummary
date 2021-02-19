@@ -6,4 +6,4 @@ model_name = 'Transformer'  # 可选TextCNN、TextLSTM
 ```
 2. 直接运行python train.py
 
-其他：修改train.py debug=True 可以直接debug模型forward方法
+其他：修改train.py debug=True 可以直接debug模型
