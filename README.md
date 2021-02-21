@@ -4,7 +4,7 @@
 |/data| demo代码用的数据集（LCQMC、MRPC、THUCNews）|
 |/data_augmentation| 数据增强工具|
 |/pandas | pandas常用方法（导入导出、func）|
-|/paper | 最近阅读的nlp相关论文|
+|/paper | nlp相关论文|
 |/rank | 排序算法示例（pyltr_listwise 、xgboost、 sklearn_xgboost）|
 |/similarity | 常用文本相似度计算方法（Jaccord、编辑距离）|
 |/sklearn | sklearn常用方法（交叉验证、网格搜索、逻辑回归、svm等）|
@@ -13,7 +13,13 @@
 |/xgboost | xgboost demo|
 |/xmind | NLP领域知识总结|
 
-# 已阅读文章整理
+## 模型蒸馏
+|内容|类型|
+|:--|:--|
+|[BERT蒸馏完全指南](https://mp.weixin.qq.com/s/z16a9wROQfsCyapH0iP7lw)|分享|
+|[哈工大模型蒸馏工具TextBrewer](https://github.com/airaria/TextBrewer)||
+
+
 ## 智能客服
 |内容|类型|
 |:--|:--|
@@ -64,11 +70,4 @@
 |内容|类型|
 |:--|:--|
 |[阿里][最新综述：对话系统之用户模拟器](https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247498768&idx=1&sn=fcfe600c5424d0574bb2388bb84f6201&chksm=96ea2390a19daa86945c6770eae0d901461012a2d3f0db0e9d588b2890a4dc56cf0f44484065&mpshare=1&scene=1&srcid=0206gsC9ONuK5wfza0Z1rRfk&sharer_sharetime=1580976682457&sharer_shareid=3c60d18bde553f3f8fdf6e933f6028d7&key=4989626a1578bf3bdb079bf70a1d5fe3dc78c9915c6fc5c79ea8d20c18a508baefcf3e3d7582c7b8cde17ac64e765d5269ce37a54f6e5d7ba1e327ff724e014b8514061ec9f990993df546da5afb6ad5&ascene=1&uin=OTI2MTc0ODYx&devicetype=Windows+10&version=6208006f&lang=zh_CN&exportkey=A4shY8TqQ%2Bou4x7cbwGdi4E%3D&pass_ticket=DbDI8FFg9bdoHQgpgNSm7vt73tTvN4GRkcRYgdzPhBl5O1Jfq7e2h3Shb1DsfV%2B9)|分享|
-
-
-## 模型蒸馏
-|内容|类型|
-|:--|:--|
-|[BERT蒸馏完全指南](https://mp.weixin.qq.com/s/z16a9wROQfsCyapH0iP7lw)|分享|
-|[哈工大模型蒸馏工具TextBrewer](https://github.com/airaria/TextBrewer)||
 
