@@ -55,6 +55,11 @@
 |[知乎搜索排序模型的演进](https://mp.weixin.qq.com/s/DZZ_BCiNw0EZg7V0KvhXVw)|分享|
 |[知乎搜索文本相关性与知识蒸馏](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247520759&idx=1&sn=4aaab934ad388ce03d3af0a3e812ce9e&chksm=fbd7239bcca0aa8d37d22880608f7704c51104f79b5bee016a7b4692dc3340e983dae0c0fa31&scene=178&cur_album_id=1695976318087069696#rd)|分享|
 
+## 排序(含搜索、广告、推荐)
+|内容|类型|
+|:--|:--|
+|[阿里粗排技术体系及最新进展](https://mp.weixin.qq.com/s/CN3a4Zb4yEjgi4mkm2lX6w)|分享|
+
 
 ## 对话管理
 |内容|类型|

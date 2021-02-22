@@ -5,14 +5,15 @@ import torch.nn.functional as F
 import torch
 import math
 
-class Config(object):
 
+class Config(object):
     """配置参数"""
+
     def __init__(self, vocab_size, embed_dim, label_num, max_length=32):
         self.embedding_pretrained = None
-        self.num_classes = label_num                                    # 类别数
-        self.vocab_size = vocab_size                                       # 词表大小，在运行时赋值
-        self.embed_dim = embed_dim                                      # 字向量维度
+        self.num_classes = label_num  # 类别数
+        self.vocab_size = vocab_size  # 词表大小，在运行时赋值
+        self.embed_dim = embed_dim  # 字向量维度
         self.num_head = 5
         self.dropout = 0.1
         self.hidden = 512
@@ -51,6 +52,7 @@ class Encoder(nn.Module):
         super().__init__()
         self.attention = MultiHeadAttention(embed_dim, num_head, dropout)
         self.feed_forward = Position_wise_Feed_Forward(embed_dim, hidden, dropout)
+
     def forward(self, x):
         out = self.attention(x)
         out = self.feed_forward(out)
@@ -88,10 +90,11 @@ class MultiHeadAttention(nn.Module):
         out = self.layer_norm(out)
         return out
 
-'''
-attention计算
-'''
+
 class Attention(nn.Module):
+    """
+    Attention计算
+    """
     def __init__(self):
         super().__init__()
 
@@ -103,9 +106,12 @@ class Attention(nn.Module):
         result = torch.matmul(softmax_result, value)
         return result
 
+
 '''
 这里对应transformers encoder的Feed forward
 '''
+
+
 class Position_wise_Feed_Forward(nn.Module):
     def __init__(self, dim_model, hidden, dropout=0.0):
         super().__init__()
@@ -123,13 +129,14 @@ class Position_wise_Feed_Forward(nn.Module):
         out = self.layer_norm(out)
         return out
 
+
 if __name__ == "__main__":
     test = torch.tensor([[2.0, 5.0, 3.0], [1.0, 2.0, 3.0]], dtype=torch.float)
     print(test.size())
     print(test.size(-1))
     print(test)
     print(test.transpose(-1, -2))
-    #print('mask', test.masked_fill(, -1e9))
+    # print('mask', test.masked_fill(, -1e9))
     softmax = torch.softmax(test, dim=1)
     softmax2 = torch.softmax(test, dim=0)
     print('softmax', softmax)
