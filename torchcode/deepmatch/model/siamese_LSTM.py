@@ -10,6 +10,8 @@ vocab_size = 100
 seq_length = 3
 embedding_dim = 200
 
+
+
 # 2个label, 相似/不相似
 lstm_hidden_size = 2
 
