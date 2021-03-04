@@ -78,7 +78,7 @@ def evaluate(model, dataloader_dev):
             output = model(datas)
             predic = torch.max(output.data, 1)[1].cpu()
             predict_all = np.append(predict_all, predic)
-            labels_all = np.append(labels_all, labels)
+            labels_all = np.append(labels_all, labels.cpu())
             if len(predict_all) > 1000:
                 break
     acc = metrics.accuracy_score(labels_all, predict_all)
@@ -88,7 +88,7 @@ def evaluate(model, dataloader_dev):
 if __name__ == "__main__":
     debug = False
     # 相对路径 + modelName(TextCNN、TextLSTM)
-    model_name = 'Transformer'
+    model_name = 'TextCNN'
     module = import_module(model_name)
     config = module.Config(vocab_size, embed_dim, label_num)
 
