@@ -13,6 +13,9 @@
 |/xgboost | xgboost demo|
 |/xmind | NLP领域知识总结|
 
+## 高质量git
+[北京航空航天大学大数据高精尖中心自然语言处理研究团队开展了智能问答的研究与应用总结](https://github.com/BDBC-KG-NLP/QA-Survey-CN)
+
 ## 模型蒸馏
 |内容|类型|
 |:--|:--|
